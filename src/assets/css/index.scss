@@ -1,0 +1,10 @@
+@import './var';
+html,body{
+    margin:0;
+    padding: 0;
+}
+body{
+    @include widthHeight(100%,100%);
+    background: $color;
+    overflow-x: hidden;
+}

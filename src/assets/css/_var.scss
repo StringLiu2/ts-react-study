@@ -1,0 +1,22 @@
+$color:#eee;
+$defaultColor:#000;
+$defaultBgColor:#fff;
+$leftNavbarColor:#3f3f3f;
+
+@mixin widthHeight ($width:null, $height:null) {
+    width: $width;
+    height: $height;
+}
+
+@mixin marPad ($margin:null, $padding:null) {
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin position ($position:null, $top:null, $left:null, $right:null, $bottom:null) {
+    position: $position;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
